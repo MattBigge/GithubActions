@@ -13,7 +13,7 @@ namespace GithubActionsLab
             Assert.AreEqual(5, Program.Add("3", "2"));
             Assert.AreEqual(12, Program.Add("5", "7"));
         }
-
+        //bruh
         [Test]
         public void Add_Invalid()
         {
