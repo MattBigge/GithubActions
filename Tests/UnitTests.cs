@@ -56,7 +56,7 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Subtract(null, null));
         }
 
-        //Multiply Tests
+        /*//Multiply Tests
         [Test]
         public void Multiply_Valid()
         {
@@ -130,5 +130,6 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Power(null, "1"));
             Assert.Throws<ArgumentNullException>(() => Program.Power(null, null));
         }
+        */
     }
 }
