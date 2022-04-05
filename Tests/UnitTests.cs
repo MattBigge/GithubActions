@@ -107,7 +107,7 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Divide(null, null));
         }
 
-        /*
+        
         //Power Tests
         [Test]
         public void Power_Valid()
@@ -116,7 +116,7 @@ namespace GithubActionsLab
             Assert.AreEqual(9, Program.Power("3", "2"));
             Assert.AreEqual(125, Program.Power("5", "3"));
         }
-
+        
         [Test]
         public void Power_Invalid()
         {
@@ -132,6 +132,6 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Power(null, "1"));
             Assert.Throws<ArgumentNullException>(() => Program.Power(null, null));
         }
-        */
+        
     }
 }
