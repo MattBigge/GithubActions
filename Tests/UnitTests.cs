@@ -81,7 +81,7 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Multiply(null, null));
         }
 
-        /*
+        
         //Divide Tests
         [Test]
         public void Divide_Valid()
@@ -107,6 +107,7 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Divide(null, null));
         }
 
+        /*
         //Power Tests
         [Test]
         public void Power_Valid()
